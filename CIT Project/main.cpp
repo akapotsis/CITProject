@@ -19,7 +19,7 @@ int moveAudio(string dir, string folderName);
 
 int main(int argc, char** argv)
 {
-	extractAudioFiles(string("C:\\Users\\Anthony\\Desktop\\CIT Project\\Test Folder\\"));
+	extractAudioFiles(string("C:\\Users\\Anthony\\Desktop\\CIT Project\\Test Folder\\")); //Replace with directory
 
 	system("pause");
 	return 0;
